@@ -7,8 +7,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/webicon1.jpg">
+  <link rel="icon" href="/img/webicon1.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   
@@ -16,21 +16,22 @@
   <meta name="author" content="Xi Sun">
   <meta name="keywords" content="">
   
-    <meta name="description" content="欢迎来到我的博客！在这里我会把所有学习整理出的技术博客迁移上来。终于有一个地方能够一起安放我的小小文档们了。 可能也会连载一些生活吐槽（不确定），在成为一个优秀的软件开发工程师的路途上慢慢跋涉吧～  欢迎联系我交流技术学习！">
+    <meta name="description" content="属性初始化 在类声明中直接为变量赋值； 在初始化块中初始化： 1234567class LoginFragment : Fragment() &amp;#123;    val index: Int            init &amp;#123;       	     index &#x3D; 12        &amp;#125;&amp;#125; 延迟初始化： 在 Kotlin 中，必须在&#x3D;&#x3D;声明对象时">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Blog破壳日">
-<meta property="og:url" content="http://example.com/2022/09/19/Blog%E7%A0%B4%E5%A3%B3%E6%97%A5/index.html">
+<meta property="og:title" content="【Kotlin】Android开发Java到Kotlin的过渡">
+<meta property="og:url" content="http://example.com/2022/09/20/Android%E5%BC%80%E5%8F%91Java%E5%88%B0Kotlin%E7%9A%84%E8%BF%87%E6%B8%A1-md/index.html">
 <meta property="og:site_name" content="SX&#39;s Blog Site">
-<meta property="og:description" content="欢迎来到我的博客！在这里我会把所有学习整理出的技术博客迁移上来。终于有一个地方能够一起安放我的小小文档们了。 可能也会连载一些生活吐槽（不确定），在成为一个优秀的软件开发工程师的路途上慢慢跋涉吧～  欢迎联系我交流技术学习！">
+<meta property="og:description" content="属性初始化 在类声明中直接为变量赋值； 在初始化块中初始化： 1234567class LoginFragment : Fragment() &amp;#123;    val index: Int            init &amp;#123;       	     index &#x3D; 12        &amp;#125;&amp;#125; 延迟初始化： 在 Kotlin 中，必须在&#x3D;&#x3D;声明对象时">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-09-19T07:35:53.447Z">
-<meta property="article:modified_time" content="2022-09-19T07:35:53.447Z">
+<meta property="article:published_time" content="2022-09-20T15:08:39.000Z">
+<meta property="article:modified_time" content="2022-09-20T07:14:40.887Z">
 <meta property="article:author" content="Xi Sun">
+<meta property="article:tag" content="Android">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Blog破壳日 - SX&#39;s Blog Site</title>
+  <title>【Kotlin】Android开发Java到Kotlin的过渡 - SX&#39;s Blog Site</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -195,7 +196,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle">Blog破壳日</span>
+            <span id="subtitle">【Kotlin】Android开发Java到Kotlin的过渡</span>
           
         </div>
 
@@ -206,8 +207,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-09-19 07:35" pubdate>
-          2022年9月19日 早上
+        <time datetime="2022-09-20 15:08" pubdate>
+          2022年9月20日 下午
         </time>
       </span>
     
@@ -218,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          109 字
+          1.5k 字
         
       </span>
     
@@ -229,7 +230,7 @@
         
         
         
-          1 分钟
+          13 分钟
         
       </span>
     
@@ -267,15 +268,31 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">Blog破壳日</h1>
+            <h1 style="display: none">【Kotlin】Android开发Java到Kotlin的过渡</h1>
             
             
               <div class="markdown-body">
                 
-                <h2 id="欢迎来到我的博客！"><a href="#欢迎来到我的博客！" class="headerlink" title="欢迎来到我的博客！"></a>欢迎来到我的博客！</h2><p>在这里我会把所有学习整理出的技术博客迁移上来。终于有一个地方能够一起安放我的小小文档们了。</p>
-<p>可能也会连载一些生活吐槽（不确定），在成为一个优秀的软件开发工程师的路途上慢慢跋涉吧～</p>
-<hr>
-<p>欢迎联系我交流技术学习！</p>
+                <h3 id="属性初始化"><a href="#属性初始化" class="headerlink" title="属性初始化"></a>属性初始化</h3><ol>
+<li>在类声明中直接为变量赋值；</li>
+<li>在初始化块中初始化： <figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs kotlin"><span class="hljs-keyword">class</span> <span class="hljs-title class_">LoginFragment</span> : <span class="hljs-type">Fragment</span>() &#123;<br>    <span class="hljs-keyword">val</span> index: <span class="hljs-built_in">Int</span>   <br>     <br>    <span class="hljs-keyword">init</span> &#123;       <br>	     index = <span class="hljs-number">12</span>   <br>     &#125;<br>&#125;<br></code></pre></td></tr></table></figure></li>
+<li>延迟初始化：<br> 在 Kotlin 中，必须在&#x3D;&#x3D;声明对象时&#x3D;&#x3D;初始化对象的属性，使用 <code>lateinit</code> 推迟属性初始化<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs kotlin"><span class="hljs-keyword">class</span> <span class="hljs-title class_">LoginFragment</span> : <span class="hljs-type">Fragment</span>() &#123; <br><br>	<span class="hljs-keyword">private</span> <span class="hljs-keyword">lateinit</span> <span class="hljs-keyword">var</span> usernameEditText: EditText    <br>	<span class="hljs-keyword">private</span> <span class="hljs-keyword">lateinit</span> <span class="hljs-keyword">var</span> passwordEditText: EditText    <br>	<span class="hljs-keyword">private</span> <span class="hljs-keyword">lateinit</span> <span class="hljs-keyword">var</span> loginButton: Button    <br>	<span class="hljs-keyword">private</span> <span class="hljs-keyword">lateinit</span> <span class="hljs-keyword">var</span> statusTextView: TextView   <br>	 <br>	<span class="hljs-keyword">override</span> <span class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">onViewCreated</span><span class="hljs-params">(view: <span class="hljs-type">View</span>, savedInstanceState: <span class="hljs-type">Bundle</span>?)</span></span> &#123;    <br>		<span class="hljs-keyword">super</span>.onViewCreated(view, savedInstanceState)      <br>		  <br>		usernameEditText = view.findViewById(R.id.username_edit_text)       <br>		passwordEditText = view.findViewById(R.id.password_edit_text)        <br>		loginButton = view.findViewById(R.id.login_button)        <br>		statusTextView = view.findViewById(R.id.status_text_view)    <br>	&#125;    <br>	...<br>&#125;<br></code></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="伴生对象"><a href="#伴生对象" class="headerlink" title="伴生对象"></a>伴生对象</h3><blockquote>
+<p>用于定义在概念上与某个类型相关但不与某个特定对象关联的变量或函数。</p>
+</blockquote>
+<p>类似于对变量和方法使用 Java 的 <code>static</code> 关键字。</p>
+<h3 id="属性委托"><a href="#属性委托" class="headerlink" title="属性委托"></a>属性委托</h3><p>通过属性委托初始化属性，实现在整个应用中的对象复用机制</p>
+<p>机制：反射（性能开销大）</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs kotlin"><span class="hljs-comment">//template</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Example</span> &#123;<br>    <span class="hljs-keyword">var</span> p: String <span class="hljs-keyword">by</span> Delegate()<br>&#125;<br><br><span class="hljs-comment">//example</span><br><span class="hljs-keyword">private</span> <span class="hljs-keyword">val</span> viewModel: LoginViewModel <span class="hljs-keyword">by</span> viewModels()<br></code></pre></td></tr></table></figure>
+<p>在 <code>by</code>后面的表达式是委托， 属性对应的 <code>get()</code>与 <code>set()</code>会被委托给它的 <code>getValue()</code> 与 <code>setValue()</code> 方法<br>属性的委托不必实现任何的接口，但是需要提供一个 <code>getValue()</code> 方法（对于 <em>var</em> 属性还要提供 <code>setValue()</code>方法）</p>
+<h4 id="Lazy-properties"><a href="#Lazy-properties" class="headerlink" title="Lazy properties"></a>Lazy properties</h4><p>第一次使用到变量时才进行初始化，即进入<code>lazy</code>块：</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs kotlin"><span class="hljs-keyword">val</span> lazyValue: String <span class="hljs-keyword">by</span> lazy &#123;<br>    println(<span class="hljs-string">&quot;computed!&quot;</span>)<br>    <span class="hljs-string">&quot;Hello&quot;</span><br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h4 id="observable-properties"><a href="#observable-properties" class="headerlink" title="observable properties"></a>observable properties</h4><p>监听器会收到有关此属性变更的通知：</p>
+<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs kotlin"><span class="hljs-keyword">class</span> <span class="hljs-title class_">User</span> &#123;<br>	<span class="hljs-comment">//Delegates.observable(初始值) &#123; 修改时处理程序（handler） &#125;</span><br>    <span class="hljs-keyword">var</span> name: String <span class="hljs-keyword">by</span> Delegates.observable(<span class="hljs-string">&quot;&lt;no name&gt;&quot;</span>) &#123;<br>	    <span class="hljs-comment">//闭包的三个参数：被赋值的属性、旧值与新值：</span><br>        prop, old, new -&gt;<br>        println(<span class="hljs-string">&quot;<span class="hljs-variable">$old</span> -&gt; <span class="hljs-variable">$new</span>&quot;</span>)<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+
+<h3 id="Kotlin协程"><a href="#Kotlin协程" class="headerlink" title="Kotlin协程"></a>Kotlin协程</h3><p>reference: <a target="_blank" rel="noopener" href="https://www.kotlincn.net/docs/reference/android-overview.html">Kotlin Develop.doc</a></p>
 
                 
               </div>
@@ -285,6 +302,13 @@
               <div class="post-metas my-3">
   
   
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Android/">#Android</a>
+      
+    </div>
+  
 </div>
 
 
@@ -293,8 +317,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Blog破壳日</div>
-      <div>http://example.com/2022/09/19/Blog破壳日/</div>
+      <div>【Kotlin】Android开发Java到Kotlin的过渡</div>
+      <div>http://example.com/2022/09/20/Android开发Java到Kotlin的过渡-md/</div>
     </div>
     <div class="license-meta">
       
@@ -306,7 +330,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年9月19日</div>
+          <div>2022年9月20日</div>
         </div>
       
       
@@ -338,15 +362,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/09/19/design/" title="Android UI design">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Android UI design</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2022/09/19/design/" title="Android UI design">
+                        <span class="hidden-mobile">Android UI design</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
