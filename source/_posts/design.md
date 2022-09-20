@@ -1,7 +1,7 @@
 ---
 title: Android UI design
 date: 2022-09-19 13:16:26
-tags: Android | UI
+tags: Android
 ---
 
 记录了一些开发过程中整理的UI设计方案，持续更新...
