@@ -23,7 +23,22 @@ int numTrees(int n) {
 }
 ```
 
-## 9/22  [通配符匹配](https://leetcode.cn/problems/wildcard-matching/)
+## 9 / 23 [Excel 表列序号](https://leetcode.cn/problems/excel-sheet-column-number/)
+给你一个字符串 `columnTitle` ，表示 Excel 表格中的列名称。返回 _该列名称对应的列序号_ 。
+```c++
+/**
+* 26进制转10进制
+**/
+int titleToNumber(string columnTitle) {  
+    int num = 0, n = columnTitle.size();  
+    for (int i = 0; i < n; ++i) {  
+        num = num * 26 + (columnTitle[i] - 'A' + 1) ;  
+    }  
+    return num;  
+}
+```
+
+## 9 / 22  [通配符匹配](https://leetcode.cn/problems/wildcard-matching/)
 给定一个字符串 (s) 和一个字符模式 (p) ，实现一个支持 '?' 和 '*' 的通配符匹配。
 '?' 可以匹配任何单个字符。
 '\*' 可以匹配任意字符串（包括空字符串）
@@ -31,7 +46,8 @@ int numTrees(int n) {
 /**  大模拟好难QAQ
  * 通配符匹配(hard)  
  * （双指针）  
- * */bool isMatch(string s, string p) {  
+ * */
+ bool isMatch(string s, string p) {  
     int i, j = 0;  
     if(p.size() == 0) { //防止空字符串  
         return s.size() == 0;  
