@@ -27,24 +27,16 @@ tags: Android
 
 ### 1.从登录开始吧！
 最先出现的是漂亮的启动页
-
-
-<img src="../images/splash.jpg" width="30%" height="30%">
-<!-- ![splash](../images/splash.jpg) -->
+![splash](../images/splash.jpg)
 
 等待它结束后就进入登录界面啦～
-
-
-<img src="../images/login.jpg" width="30%" height="30%">
-<!-- ![login](../images/login.jpg) -->
+![login](../images/login.jpg)
 
 如果是第一次登录要选中立即注册先注册自己的账号哦
 
 如果有注册账号就输入相应的手机号和密码即可
 
-
-<img src="../images/register.jpg" width="30%" height="30%">
-<!-- ![register](..//images/register.jpg) -->
+![register](..//images/register.jpg)
 
 输入自己的手机号和密码，密码长度限制要大于5位，并注意输入正确的手机号格式
 
@@ -52,14 +44,8 @@ tags: Android
 
 ### 2.首页
 
+![home](..//images/home.jpg)
 
-
-<img src="/../images/home.jpg" width="30%" height="30%">
-<!-- ![home](..//images/home.jpg) -->
-
-
-
-<img src="https://alexcld.com/images/pengyuyan.jpg" width=256 height=256 />
 #### 2.1 学习区
 
 #### 2.2 游戏区
@@ -68,10 +54,7 @@ tags: Android
 
 ### 3.我的
 
-
-
-<img src="../images/me.jpg" width="30%" height="30%">
-<!-- ![me](..//images/me.jpg) -->
+![me](..//images/me.jpg)
 
 #### 3.1 我的故事
 
