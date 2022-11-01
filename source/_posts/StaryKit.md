@@ -27,17 +27,23 @@ tags: Android
 
 ### 1.从登录开始吧！
 最先出现的是漂亮的启动页
-<img src="../images/splash.jpg" width="50%" height="50%">
+
+
+<img src="../images/splash.jpg" width="30%" height="30%">
 <!-- ![splash](../images/splash.jpg) -->
 
 等待它结束后就进入登录界面啦～
-<img src="../images/login.jpg" width="50%" height="50%">
+
+
+<img src="../images/login.jpg" width="30%" height="30%">
 <!-- ![login](../images/login.jpg) -->
 
 如果是第一次登录要选中立即注册先注册自己的账号哦
 
 如果有注册账号就输入相应的手机号和密码即可
-<img src="../images/register.jpg" width="50%" height="50%">
+
+
+<img src="../images/register.jpg" width="30%" height="30%">
 <!-- ![register](..//images/register.jpg) -->
 
 输入自己的手机号和密码，密码长度限制要大于5位，并注意输入正确的手机号格式
@@ -45,7 +51,10 @@ tags: Android
 注册或者登录成功后就自动跳转到首页快乐玩耍啦💖
 
 ### 2.首页
-<img src="../images/home.jpg" width="50%" height="50%">
+
+
+
+<img src="../images/home.jpg" width="30%" height="30%">
 <!-- ![home](..//images/home.jpg) -->
 
 #### 2.1 学习区
@@ -55,7 +64,10 @@ tags: Android
 #### 2.3 故事区
 
 ### 3.我的
-<img src="../images/me.jpg" width="50%" height="50%">
+
+
+
+<img src="../images/me.jpg" width="30%" height="30%">
 <!-- ![me](..//images/me.jpg) -->
 
 #### 3.1 我的故事
