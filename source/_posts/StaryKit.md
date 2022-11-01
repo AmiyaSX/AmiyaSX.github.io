@@ -27,16 +27,21 @@ tags: Android
 
 ### 1.从登录开始吧！
 最先出现的是漂亮的启动页
+
+
 ![splash](../images/splash.jpg)
 
 等待它结束后就进入登录界面啦～
+
+
 ![login](../images/login.jpg)
 
 如果是第一次登录要选中立即注册先注册自己的账号哦
 
 如果有注册账号就输入相应的手机号和密码即可
 
-![register](..//images/register.jpg)
+
+![register](../images/register.jpg)
 
 输入自己的手机号和密码，密码长度限制要大于5位，并注意输入正确的手机号格式
 
@@ -44,7 +49,8 @@ tags: Android
 
 ### 2.首页
 
-![home](..//images/home.jpg)
+
+![home](../images/home.jpg)
 
 #### 2.1 学习区
 
@@ -54,7 +60,8 @@ tags: Android
 
 ### 3.我的
 
-![me](..//images/me.jpg)
+
+![me](../images/me.jpg)
 
 #### 3.1 我的故事
 
