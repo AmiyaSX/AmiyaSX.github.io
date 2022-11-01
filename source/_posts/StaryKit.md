@@ -54,20 +54,55 @@ tags: Android
 
 #### 2.1 学习区
 
+
+![study](../images/study.jpg)
+
+
 #### 2.2 游戏区
 
+
+![game](../images/game.jpg)
+
+
+例如进入填色游戏🎮：
+
+
+![](../images/game_color.jpg)
+
 #### 2.3 故事区
+
+
+![story](../images/story.jpg)
+
+
+随意点进一本书就可以开始阅读啦～
+
+
+![](../images/story_read.jpg)
 
 ### 3.我的
 
 
 ![me](../images/me.jpg)
 
+
 #### 3.1 我的故事
+
+
+![my story](../images/my_story.jpg)
+
 
 #### 3.2 错题集
 
+
+![my problem](../images/my_problem.jpg)
+
+
 #### 3.3 我的游戏
+
+
+![my game](../images/my_game.jpg)
+
 
 ## 获取
 
