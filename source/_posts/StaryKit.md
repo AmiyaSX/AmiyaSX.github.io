@@ -54,9 +54,12 @@ tags: Android
 
 
 
-<img src="../images/home.jpg" width="30%" height="30%">
+<img src="/../images/home.jpg" width="30%" height="30%">
 <!-- ![home](..//images/home.jpg) -->
 
+
+
+<img src="https://alexcld.com/images/pengyuyan.jpg" width=256 height=256 />
 #### 2.1 学习区
 
 #### 2.2 游戏区
